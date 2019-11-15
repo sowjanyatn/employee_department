@@ -1,0 +1,21 @@
+[{
+    "model": "employee_department.department",
+    "pk": 1,
+    "fields": {
+        "d_id": 1,
+        "d_name": "Front_End"
+    }
+},
+{
+    "model": "employee_department.employee",
+    "pk": 1,
+    "fields": {
+        "e_id": 1,
+        "name": "Sagar",
+        "contact": 1234567890,
+        "salary": 20000.0,
+        "role": "front_end developer",
+        "department": 1
+    }
+}
+]

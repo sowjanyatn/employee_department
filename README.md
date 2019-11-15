@@ -26,6 +26,9 @@ Create superuser with privileged access
 Start app
     python3 manage.py runserver localhost:8000
 
+Initial data for the database
+    ./emp_dep/manage.py loaddata ./emp_dep/employee_department/fixtures/myfixtures.json
+
 API usage
 
     * API to list all the employees.
