@@ -1,0 +1,13 @@
+version: '2'
+services:
+    server:
+      env_file:
+        - .env
+      image: employee_department
+      working_dir: /mnt
+      # build: .
+      command: python3 emp_dep/manage.py runserver 0.0.0.0:8000
+      volumes:
+        - .:/mnt
+      ports:
+        - 8000:8000
